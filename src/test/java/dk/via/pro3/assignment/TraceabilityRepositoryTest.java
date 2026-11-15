@@ -1,7 +1,7 @@
-package com.example.assignment;
+package dk.via.pro3.assignment;
 
-import com.example.assignment.Entities.DistributionProduct;
-import com.example.assignment.Repositories.TraceabilityRepository;
+import dk.via.pro3.assignment.Entities.DistributionProduct;
+import dk.via.pro3.assignment.Repositories.TraceabilityRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

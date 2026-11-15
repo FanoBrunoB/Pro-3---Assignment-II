@@ -1,4 +1,4 @@
-package com.example.assignment;
+package dk.via.pro3.assignment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

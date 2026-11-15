@@ -1,10 +1,10 @@
-package com.example.assignment;
+package dk.via.pro3.assignment;
 
-import com.example.assignment.Entities.DistributionProduct;
-import com.example.assignment.Repositories.TraceabilityRepository;
-import com.example.assignment.Service.NotFoundException;
-import com.example.assignment.Service.ProductInfo;
-import com.example.assignment.Service.TraceabilityService;
+import dk.via.pro3.assignment.Entities.DistributionProduct;
+import dk.via.pro3.assignment.Repositories.TraceabilityRepository;
+import dk.via.pro3.assignment.Service.NotFoundException;
+import dk.via.pro3.assignment.Service.ProductInfo;
+import dk.via.pro3.assignment.Service.TraceabilityService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

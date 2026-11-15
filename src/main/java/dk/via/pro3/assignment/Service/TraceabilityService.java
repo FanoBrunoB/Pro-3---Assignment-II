@@ -1,6 +1,6 @@
-package com.example.assignment.Service;
+package dk.via.pro3.assignment.Service;
 
-import com.example.assignment.Repositories.TraceabilityRepository;
+import dk.via.pro3.assignment.Repositories.TraceabilityRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

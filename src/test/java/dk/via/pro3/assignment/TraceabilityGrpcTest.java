@@ -1,11 +1,11 @@
-package com.example.assignment;
+package dk.via.pro3.assignment;
 
-import com.example.assignment.grpc.AnimalRequest;
-import com.example.assignment.grpc.AnimalsResponse;
-import com.example.assignment.grpc.ProductRequest;
-import com.example.assignment.grpc.ProductSummary;
-import com.example.assignment.grpc.ProductsResponse;
-import com.example.assignment.grpc.TraceabilityServiceGrpc;
+import dk.via.pro3.assignment.grpc.AnimalRequest;
+import dk.via.pro3.assignment.grpc.AnimalsResponse;
+import dk.via.pro3.assignment.grpc.ProductRequest;
+import dk.via.pro3.assignment.grpc.ProductSummary;
+import dk.via.pro3.assignment.grpc.ProductsResponse;
+import dk.via.pro3.assignment.grpc.TraceabilityServiceGrpc;
 import io.grpc.Status;
 import io.grpc.StatusRuntimeException;
 import org.junit.jupiter.api.Test;

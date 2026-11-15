@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS part_type (
 CREATE TABLE IF NOT EXISTS cow (
     id BIGSERIAL PRIMARY KEY,
     weight DOUBLE PRECISION NOT NULL,
-    arrival_date TIMESTAMP NOT NULL,
+    arrival_date DATE NOT NULL,
     supplier_name VARCHAR(100) NOT NULL,
     CONSTRAINT fk_cow_supplier FOREIGN KEY (supplier_name) REFERENCES supplier (name)
 );

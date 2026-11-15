@@ -3,11 +3,11 @@ INSERT INTO supplier (name) VALUES ('Farm Alpha'), ('Farm Beta') ON CONFLICT DO 
 INSERT INTO part_type (name) VALUES ('Ribeye'), ('Sirloin'), ('Tenderloin'), ('Brisket') ON CONFLICT DO NOTHING;
 
 INSERT INTO cow (id, weight, arrival_date, supplier_name) VALUES
-    (1, 520.5, '2026-09-01 08:00:00', 'Farm Alpha'),
-    (2, 498.0, '2026-09-01 08:30:00', 'Farm Alpha'),
-    (3, 610.2, '2026-09-02 09:00:00', 'Farm Beta'),
-    (4, 575.8, '2026-09-02 09:30:00', 'Farm Beta'),
-    (5, 540.0, '2026-09-03 10:00:00', 'Farm Alpha')
+    (1, 520.5, '2026-09-01', 'Farm Alpha'),
+    (2, 498.0, '2026-09-01', 'Farm Alpha'),
+    (3, 610.2, '2026-09-02', 'Farm Beta'),
+    (4, 575.8, '2026-09-02', 'Farm Beta'),
+    (5, 540.0, '2026-09-03', 'Farm Alpha')
 ON CONFLICT DO NOTHING;
 
 INSERT INTO cut_part (id, part_type, weight, cow) VALUES

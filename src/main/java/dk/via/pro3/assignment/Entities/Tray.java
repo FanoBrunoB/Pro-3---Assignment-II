@@ -1,4 +1,4 @@
-package com.example.assignment.Entities;
+package dk.via.pro3.assignment.Entities;
 
 import jakarta.persistence.*;
 

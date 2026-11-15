@@ -1,14 +1,14 @@
-package com.example.assignment.Server;
+package dk.via.pro3.assignment.Server;
 
-import com.example.assignment.grpc.AnimalRequest;
-import com.example.assignment.grpc.AnimalsResponse;
-import com.example.assignment.grpc.ProductRequest;
-import com.example.assignment.grpc.ProductSummary;
-import com.example.assignment.grpc.ProductsResponse;
-import com.example.assignment.grpc.TraceabilityServiceGrpc;
-import com.example.assignment.Service.NotFoundException;
-import com.example.assignment.Service.ProductInfo;
-import com.example.assignment.Service.TraceabilityService;
+import dk.via.pro3.assignment.grpc.AnimalRequest;
+import dk.via.pro3.assignment.grpc.AnimalsResponse;
+import dk.via.pro3.assignment.grpc.ProductRequest;
+import dk.via.pro3.assignment.grpc.ProductSummary;
+import dk.via.pro3.assignment.grpc.ProductsResponse;
+import dk.via.pro3.assignment.grpc.TraceabilityServiceGrpc;
+import dk.via.pro3.assignment.Service.NotFoundException;
+import dk.via.pro3.assignment.Service.ProductInfo;
+import dk.via.pro3.assignment.Service.TraceabilityService;
 import io.grpc.Status;
 import io.grpc.StatusRuntimeException;
 import io.grpc.stub.StreamObserver;

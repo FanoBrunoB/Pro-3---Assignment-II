@@ -1,6 +1,6 @@
-package com.example.assignment.Repositories;
+package dk.via.pro3.assignment.Repositories;
 
-import com.example.assignment.Entities.DistributionProduct;
+import dk.via.pro3.assignment.Entities.DistributionProduct;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
